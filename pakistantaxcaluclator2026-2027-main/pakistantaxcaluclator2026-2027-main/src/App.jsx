@@ -583,6 +583,7 @@ export default function App() {
           ))}
           <a href={`${import.meta.env.BASE_URL}privacy-policy.html`}>Privacy Policy</a>
           <a href="https://github.com/umerconvertoffice-code/pakistantaxcaluclator/issues" target="_blank" rel="noopener noreferrer">Contact</a>
+          <a href="https://asiafilm.org/4/b735cefcd447358340de95a8468a2373" target="_blank" rel="sponsored noopener noreferrer">Sponsored offers</a>
         </nav>
         <small>© 2026 Money Tools. For estimates only.</small>
       </footer>
