@@ -581,6 +581,8 @@ export default function App() {
               setPage(id);
             }}>{id === 'home' ? 'Home' : label}</a>
           ))}
+          <a href={`${import.meta.env.BASE_URL}privacy-policy.html`}>Privacy Policy</a>
+          <a href="https://github.com/umerconvertoffice-code/pakistantaxcaluclator/issues" target="_blank" rel="noopener noreferrer">Contact</a>
         </nav>
         <small>© 2026 Money Tools. For estimates only.</small>
       </footer>
