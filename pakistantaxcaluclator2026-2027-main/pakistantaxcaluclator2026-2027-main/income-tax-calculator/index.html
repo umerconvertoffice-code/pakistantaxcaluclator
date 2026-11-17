@@ -18,6 +18,15 @@
   <meta name="twitter:description" content="Estimate salaried income tax with a calculator that explains its assumptions. Compare annual and monthly estimates, then verify current rules with official sources."/>
   <meta name="twitter:image" content="https://pakistantaxcaluclator.netlify.app/finance-hero.svg"/>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9696627049195906" crossorigin="anonymous"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('%BASE_URL%sw.js').catch(error => {
+          console.error('Service worker registration failed:', error);
+        });
+      });
+    }
+  </script>
 </head>
 <body>
   <div id="root"></div>
